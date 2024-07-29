@@ -1,0 +1,130 @@
+body,
+p,
+h1,
+h2,
+h3,
+h4,
+a,
+button {
+  font-family: "Roboto", sans-serif;
+}
+
+.cancel {
+  cursor: pointer;
+  margin-left: 4px;
+  color: lightcoral;
+  padding: 0px;
+}
+
+.caption {
+  font-size: 12px;
+}
+
+.loading {
+  margin-left: 20px;
+}
+
+.eye {
+  color: #d3d3d3;
+  margin-left: 5px;
+  font-size: 13px !important;
+  margin-right: 0 !important;
+}
+
+.sub {
+  font-size: 16px;
+  color: gray;
+}
+
+.section {
+  font-size: 25px;
+  font-weight: 100;
+  margin: 0;
+  margin-bottom: 15px;
+}
+
+.score {
+  font-size: 20px;
+  font-weight: 100;
+  white-space: nowrap;
+  overflow: hidden;
+  margin: 0;
+}
+
+h1 {
+  font-weight: 300 !important;
+}
+
+.outer {
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.inner {
+  width: 85%;
+  max-width: 800px;
+}
+
+.calc {
+  margin-right: 15px !important;
+  background-color: lightcoral !important;
+  color: white !important;
+  border: none !important;
+  margin-top: 15px !important;
+  margin-bottom: 15px !important;
+}
+
+.detail {
+  margin-right: 15px !important;
+  background-color: lightcoral !important;
+  color: white !important;
+  border: none !important;
+}
+
+.icon {
+  margin-left: 10px;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.hide {
+  visibility: hidden;
+}
+
+.info {
+  color: #d3d3d3;
+  margin: 0;
+  padding: 0;
+}
+
+.chip {
+  font-size: 13px !important;
+}
+
+.chipSelect {
+  font-size: 13px !important;
+  background-color: lightskyblue;
+}
+
+.table {
+  min-width: 300px;
+  max-width: 700px;
+}
+
+.scoreBox {
+  max-width: fit-content;
+  margin: 15px;
+  border: 1px solid lightgray;
+  border-radius: 6px;
+  padding: 10px;
+  margin-left: 0 !important;
+}
+
+@media (max-width: 750px) {
+  .outer {
+    padding: 5px;
+  }
+}
